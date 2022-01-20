@@ -1,0 +1,151 @@
+/* =============================
+
+Colors
+===========
+#DCD9D1: FFD4D2
+#6A6968: body text
+#BC6363: links
+
+==================================*/
+
+body
+{
+  margin-top: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: "Lucida Sans Unicode";
+  color: #6A6968;
+  background-color: #FFD4D2;
+}
+
+header
+{
+  text-align: left;
+  font-style: italic;
+}
+
+nav
+{
+	background-color: #BAB9B9;
+	height: 30px;
+	marging: 0;
+	padding: 7px;
+	display: block;
+	
+}
+}   
+
+menu {
+    text-align: center;
+    background-color: white;
+    padding-bottom: 100px;
+}
+
+footer
+{
+  text-align: center;
+  font-style: italic;
+}
+
+main
+{
+  padding-bottom: 10px;
+}
+
+h1, h2 
+{
+  font-family: Lucida Sans Unicode;
+  text-align: center;
+}
+h3
+{
+  font-family: Lucida Sans Unicode;
+  text-align: justify;
+ }
+ h4
+{
+  font-family: Lucida Sans Unicode;
+  text-align: center;
+  font-style: italic;
+  color: #6A6968;
+ }
+p
+{
+  font-family: Lucida Sans Unicode;
+}
+
+a 
+{
+  text-decoration: none;
+  font-weight: bold;
+  color: #FF4900;
+}
+
+ul.menu
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#BAB9B9;
+}
+li.menu 
+{
+  float: left;
+  border-right:3px solid; 
+}
+
+li.menu a 
+{
+  display: block;
+  color: #EA4D3D;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover 
+{
+  background-color:#FFB9B1;
+}
+
+table
+{
+  width: 80%;
+  margin: 0 auto;
+}
+
+table, th, td 
+{
+  border: 2px solid black;
+  border-collapse: collapse;
+  line-height: 1,5;
+  width: 50%;
+  
+}
+th
+{
+  font-size: 1em;
+  font-weight: bold;
+  font Color: White;
+  text-align: center;
+}
+td
+{
+  font-size: 1em;
+  font-weight: bold;
+  font Color: White;
+  text-align: center;
+}
+td:nth-child(even), th:nth-child(even) 
+{
+  background-color:white;
+  font Color: black;
+  center;
+}
+td:nth-child(odd), th:nth-child(odd) 
+{
+  background-color: white;
+  font Color: black;
+  center;
+}
