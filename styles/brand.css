@@ -24,6 +24,23 @@ header
   font-style: italic;
 }
 
+nav
+{
+	background-color: #BAB9B9;
+	height: 30px;
+	marging: 0;
+	padding: 7px;
+	display: block;
+	
+}
+}   
+
+menu {
+    text-align: center;
+    background-color: white;
+    padding-bottom: 100px;
+}
+
 footer
 {
   text-align: center;
@@ -44,6 +61,13 @@ h3
 {
   font-family: Lucida Sans Unicode;
   text-align: justify;
+ }
+ h4
+{
+  font-family: Lucida Sans Unicode;
+  text-align: center;
+  font-style: italic;
+  color: #6A6968;
  }
 p
 {
