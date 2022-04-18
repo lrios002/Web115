@@ -27,15 +27,17 @@ header
 nav
 {
 	background-color: #BAB9B9;
-	height: 30px;
-	marging: 0;
-	padding: 7px;
+	font-family: "Tahoma";
+	height: 40px;
+	line-height: 40px;
+	text-align: left;
 	display: block;
-	
+	text-decoration: none;
+	list-style-type: none;
 }
-}   
 
-menu {
+menu 
+{
     text-align: center;
     background-color: white;
     padding-bottom: 100px;
