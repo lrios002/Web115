@@ -21,7 +21,7 @@ body
 header
 {
   text-align: left;
-  font-style: italic;
+  
 }
 
 nav
@@ -46,7 +46,7 @@ menu
 footer
 {
   text-align: center;
-  font-style: italic;
+  
 }
 
 main
