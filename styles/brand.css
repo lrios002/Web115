@@ -121,7 +121,7 @@ table, th, td
 {
   border: 2px solid black;
   border-collapse: collapse;
-  line-height: 1,5;
+  line-height: 1;
   width: 50%;
   
 }
@@ -129,25 +129,25 @@ th
 {
   font-size: 1em;
   font-weight: bold;
-  font Color: White;
+  color: White;
   text-align: center;
 }
 td
 {
   font-size: 1em;
   font-weight: bold;
-  font Color: White;
+  color: White;
   text-align: center;
 }
 td:nth-child(even), th:nth-child(even) 
 {
   background-color:white;
-  font Color: black;
-  center;
+  Color: black;
+  
 }
 td:nth-child(odd), th:nth-child(odd) 
 {
   background-color: white;
-  font Color: black;
-  center;
+  Color: black;
+  
 }
