@@ -1,4 +1,4 @@
-function displayName(){
+function fizzBuzz0(){
 	var firstName = document.getElementById("first-name").value;
 	var middleInitial   = document.getElementById("middle-initial").value;
     var lastName  = document.getElementById("last-name").value;
