@@ -7,15 +7,17 @@
 		 // <a href="https://www.freecodecamp.org/lrios0002" target="_blank">freecodecamp</a>
 		 // <a href="https://jsfiddle.net/lrios002/3oz9ncba/4/" target="_blank">JSfiddle</a>
 	</p>
-	<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Flrios002.github.io%2Fcontract#file">
-		<img src="images/html_validation_button.gif"  alt="Check HTML 5 validation!" 
-			 style="border:0;width:88px;height:31px;" />
+		<a href="http://validator.w3.org/check?uri=referer" id = "validation_link_html">
+		<img src="images/button-validation-html5.png" width="88" height="31" alt="Validate webpage HTML." />
 	</a>
-	   
-	<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Flrios002.github.io%2Fcontract#file">
-		<img style="border:0;width:88px;height:31px"
-			src="images/css_validation_button.gif" alt="Check CSS validation!" />
+
+	<a href="https://jigsaw.w3.org/css-validator/check/referer" id = "validation_link_css">
+		<img src="images/button-validation-css.png" width="88" height="31" alt="Validate webpage CSS." />
 	</a>
+<script>
+				document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+				document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+</script>  
 		
 	<p>&copy; Laura Rios 2022</p>
 </footer>
