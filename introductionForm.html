@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "UTF-8" />
+	<title>Laura Rios // WEB115 // Introduction Form</title>
+	<link rel = "stylesheet" href = "styles/default.css" />
+  <script src="scripts/introductionForm.js"></script>
+</head>
+<body>
+  <div data-include="components/header.html"></div>
+<main>
+  <h1>Introduction Form</h1>
+  <h2 id="greeting">Welcome to Laura Rios Introduction Form Page</h2>
+  <form>
+    <label for="first-name">First name:</label>
+    <br>
+    <input type="text" id="first-name" name="first-name" value="Laura">
+    <br>
+    <label for="middle-initial">Middle initial:</label><br>
+    <input type="text" id="middle-initial" name="middle-initial" value="C">
+    <br>
+    <label for="last-name">Last name:</label><br>
+    <input type="text" id="last-name" name="last-name" value="Rios">
+    <br>
+    <input class="submit-button" type="button" onclick="fizzBuzz4()" value="Submit">
+    <p id="demoFour"></p>
+  </form>
+  <form>
+      <label for="firstQuestion">Personal background: </label><br>
+      <input type="text" id="firstQuestion" name="firstQuestion" value="I am 46 years old. I was born in Caracas, the capital of Venezuela and my parents are from Spain. 
+		I moved to Charlotte six years ago to improve my English and to start a new future in this lovely country."><br>
+      <label for="secondQuestion">Professional background: </label><br>
+      <input type="text" id="secondQuestion" name="secondQuestion" value="I have a bachelor and specialization in Document Science"><br>
+      <label for="thirdQuestion">Academic background: </label><br>
+      <input type="text" id="thirdQuestion" name="thirdQuestion" value="Bachelor in Document Science"><br>
+  
+      <label for="fourthQuestion">Primary computer platform: </label><br>
+      <input type="text" id="fourthQuestion" name="fourthQuestion" value="HP, Windows 10."><br>
+      <label for="fifthQuestion">Courses taking: </label><br>
+      <input type="text" id="fifthQuestion" name="fifthQuestion" value="WEB 115, AST 111, POL 135 and ACA 122"><br>
+      <label for="sixthQuestion">Something to remember me by: </label><br>
+      <input type="text" id="sixthQuestion" name="sixthQuestion" value="I have a philosophy: Life is so short, you have to work but enjoy life and the moments!"><br>
+      <label for="seventhQuestion">I'd like to share: </label><br>
+      <input type="text" id="seventhQuestion" name="seventhQuestion" value="This class is a real challenge for me!"><br>
+    
+  </form>
+  <input class="submit-button" type="button" onclick="introductionForm()" value="Submit">
+    <p id="demo"></p>
+    <p id="reviewInformation"></p>
+</main>
+<div data-include="components/footer.html"></div>
+<script src="scripts/include.js"></script>
+</body>
+</html>
