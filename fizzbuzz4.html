@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "UTF-8" >
+	<title>Laura Rios // WEB115 // fizzbuzz4</title>
+	<link rel = "stylesheet" href = "styles/default.css" >
+</head>
+<div data-include="components/header.html"></div>   
+<body>
+	<header>
+		
+	</header>
+<main>
+    <h2>Fizz Buzz4 Everithing!</h2>
+	
+  
+  <h2 id="greeting">Welcome to Live 360!</h2>
+  <form>
+    <label for="first-name">First name:</label>
+    <br>
+    <input type="text" id="first-name" name="first-name" placeholder="Enter your first name">
+    <br>
+    <label for="middle-initial">Middle name:</label><br>
+    <input type="text" id="middle-initial" name="middle-initial" placeholder="Enter your middle initial">
+    <br>
+    <label for="last-name">Last name:</label><br>
+    <input type="text" id="last-name" name="last-name" placeholder="Enter your last name">
+    <br>
+		
+    <div class="wordsBox">
+      <label for="firstWord">First Word:</label><br>
+      <input type="text" id="firstWord" name="firstWord" value="Fizz"><br>
+      <label for="secondWord">Second Word:</label><br>
+      <input type="text" id="secondWord" name="secondWord" value="Buzz"><br>
+      <label for="thirdWord">Third Word:</label><br>
+      <input type="text" id="thirdWord" name="thirdWord" value="BANG!"><br>
+    </div>
+	
+	<div class="numberBox">
+	<label for="firstNumber">Enter First Number:</label><br>
+    <input type="number" id="firstNumber" name="firstNumber" value="3">
+	<br>
+	<label for="secondNumber">Enter second Number:</label><br>
+    <input type="number" id="secondNumber" name="secondNumber" value="5">
+	<br>
+	<label for="thirdNumber">Enter third Number:</label><br>
+    <input type="number" id="thirdNumber" name="thirdNumber" value="7">
+	</div>
+	
+	<br>
+	<input class="submit-button" type="button" onclick="fizzbuzz4()" value="Submit">
+    <p id="demoFour"></p>
+  </form>
+</main>
+<div data-include="components/footer.html"></div>
+<script src="scripts/include.js"></script>
+</body>
+</html>
+
