@@ -16,7 +16,7 @@
 	var word2 = "Buzz";
 	var word3 = "BANG!";
 	var wordCombo = word1 + word2 + word3;
-	var totalNumber = parseInt(document.getElementById("totalNumberCount").value);
+	var totalNumber = parseInt(document.getElementById("thirdNumber").value);
 
 	for (i = 1; i <= 125; i++) 
 	{
