@@ -26,8 +26,9 @@
     <label for="last-name">Last name:</label><br>
     <input type="text" id="last-name" name="last-name" placeholder="Enter your last name">
     <br>
-		
-    <div class="wordsBox">
+	<p id="demoFour"></p>
+	
+	<div class="wordsBox">
       <label for="firstWord">First Word:</label><br>
       <input type="text" id="firstWord" name="firstWord" value="Fizz"><br>
       <label for="secondWord">Second Word:</label><br>
@@ -46,10 +47,16 @@
 	<label for="thirdNumber">Enter third Number:</label><br>
     <input type="number" id="thirdNumber" name="thirdNumber" value="7">
 	</div>
+	
+	<div class="numberTotalBox">
+      <label for="totalNumberCount">Max Number:</label><br>
+      <input type="number" id="totalNumberCount" name="totalNumberCount" value="125">
+    </div>
+	</form>
 	<br>
 	<input class="submit-button" type="button" onclick="fizzbuzz4()" value="Submit">
-    <p id="demoFour"></p>
-  </form>
+    <p id="demo"></p>
+  
 </main>
 <div data-include="components/footer.html"></div>
 <script src="scripts/include.js"></script>
